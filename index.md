@@ -10,15 +10,15 @@ layout: default
 In the Jupyter Notebook, data was used from survey_izzi.csv which contained 534 responses and 44 variables. Using the head function we were able to create a table of all the columns with responses. We then selected two variables to focus on: pre_lecture_videos and ls_effective. Both columns held string responses so we used the function convert_columns_to_ints to convert the rating into integers. We then counted the frequency of ratings. In pre_lecture_videos a rating of 7 (strongly agree pre_lec videos prepare students) was most common with 179 responses and for ls_effective 7 (strongly agree lesson videos are effective to learn course material) was also the most common. 3 visualizations were produced. Figure 1.1 is a histogram of the ratings of pre_lecture_videos and its count. Figure 1.2 is a histogram of ls_effective, and Figure 1.3 is a histogram both of them combined. All visualization further confirmed the usefulness of videos.
 
 <!-- This is a comment. Below, you'll see code for inserting an image. To make this image appear, update <custom-path>. To add an image, save it inside the imgs folder of this repository. -->
-<img src="./static/imgs/chart1.png" alt="Bar graph of column 1 data. "  width="500"/>
+<img src="./static/imgs/chart1.png" alt="Bar graph of column 1 data. "  width="350"/>
 
 Figure 1.1: Histogram of pre_lecutre_videos variable
 
-<img src="./static/imgs/chart2.png" alt="Bar graph of column 2 data. "  width="500"/>
+<img src="./static/imgs/chart2.png" alt="Bar graph of column 2 data. "  width="350"/>
 
 Figure 1.2: Histogram of ls_effective variable
 
-<img src="./static/imgs/chart3.png" alt="Bar graph of column 1 and 2 data. "  width="500"/>
+<img src="./static/imgs/chart3.png" alt="Bar graph of column 1 and 2 data. "  width="350"/>
 
 Figure 1.3: Histogram of both pre_lecture_videos and ls_effective variables
 
